@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+runs/
+results/
+logs/
+# Generated training artifacts are kept out of the public source repository.
+checkpoints/
+/data/*
+!/data/cvrplib_instances/
+/data/cvrplib_instances/*
+!/data/cvrplib_instances/*.vrp
+*.pt
+*.pth
+*.ckpt
+*.tmp
+*.zip
+*.log
+.DS_Store
+Thumbs.db
